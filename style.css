@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+}
+/*---------------- Navbar -----------------*/
+nav{
+    /* background-color: #683e24; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 1px solid wheat;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+nav ul li a{
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+nav ul li a:hover{
+    background-color: wheat;
+    color: #683e24;
+}
+
+/*------------Hero image-----------------*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imgs.search.brave.com/2LFLLhudvZv4j6-X-KOJ43G45XPK6ByJHkZE9xARup0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MDEzMzk4NDczMDIt/YWM0MjZhNGE3Y2Ji/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4amIy/eHNaV04wYVc5dUxY/QmhaMlY4TVh3eU16/a3dOakl5Zkh4bGJu/d3dmSHg4Zkh3PQ");
+
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: wheat;
+}
+.hero-text h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero-text a{
+    text-decoration: none;
+    background-color: wheat;
+    color: #683e24;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hero-text a:hover{
+    padding: 11px 21px;
+    background-color: #683e24;
+    color: wheat;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/*-----------------About section-----------------*/
+
+.about-section{
+    height: 100vh;
+    color: wheat;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imgs.search.brave.com/FiuNq0snEs-gj4l1cRsZT6WbtfE5BwRzLOB39afaA0g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9s/YXR0ZS1hcnQtY296/eS1jYWZlXzIzLTIx/NTE5NDU2NjUuanBn/P3NlbXQ9YWlzX2lu/Y29taW5nJnc9NzQw/JnE9ODA");
+     width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about-section h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.about-section p{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.about-section a{
+    text-decoration: none;
+    background-color: wheat;
+    color: #683e24;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    font-weight: bold;
+}
+.about-section a:hover{
+    padding: 11px 21px;
+    background-color: #683e24;
+    color: wheat;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/*-----------------Menu section-----------------*/
+.menu-section{
+    height: 100vh;
+    color: wheat;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imgs.search.brave.com/LTj7Ncrh9L4bkTZM_2tsr_8gJF6zHvAobsG7uj5iPIk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTM5/MTk5OTgyL3Bob3Rv/L2JsdXItZGFyay1i/YXItb3ItY2FmZS1h/dC1uaWdodC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9V19N/bFBQM3U0T0hDRGJZ/eTVNWkx5bTRxbFFS/VS13UkZTVWRkYy1H/Zk1Ecz0");
+     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+
+}
+.menu-section h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: wheat;
+}
+.menu-section p{
+    font-size: 20px;
+}
+
+.menu-section ul{
+    list-style-type: square;
+    color: wheat;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+.menu-section ul li{
+    font-size: 25px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/*-------------- contact section-------------- */
+
+.contact-section{
+    height: 92vh;
+    color: wheat;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imgs.search.brave.com/qlkfVejVEBoi1TOjinPkIbZ-FR1t2UfvP9vWWE4J4-k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjA3/NjA3NTE3MS9waG90/by9hYnN0cmFjdC1k/ZWZvY3VzZWQtYmFj/a2dyb3VuZC1vZi1y/ZXN0YXVyYW50Lmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1f/S3NFVUFDaEJpT1FE/RU1QNmJ1bW9KUG9I/a0Q1V1RGbVBCaDFS/MW9lVHo4PQ");
+     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+.contact-section form{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.contact-section form input, .contact-section form textarea{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-section form input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: wheat;
+    color: #683e24;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-section form input[type="submit"]:hover{
+    padding: 11px 21px;
+    background-color: #683e24;
+    color: wheat;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*--------------- Footer ------------------*/
+footer{
+    padding: 10px;
+    background-color: #683e24;
+    color: wheat;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    position: relative;
+}
